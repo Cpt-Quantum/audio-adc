@@ -1,0 +1,596 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/quant/Documents/Electronics-Projects/audio_adc/audio_adc.sch</source>
+    <date>Mon 29 Jun 2020 22:59:51 BST</date>
+    <tool>Eeschema 5.1.6</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>audio_adc.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/Analogue_Frontend_R/" tstamps="/5EFD3570/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>ADC_AN_IN.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/Analogue_Frontend_L/" tstamps="/5EFE2DBB/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>ADC_AN_IN.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="4" name="/3.3V_LDO/" tstamps="/5EFF9A4F/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>3V3-LDO.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="U1">
+      <value>CS5343</value>
+      <footprint>Package_SO:TSSOP-10_3x3mm_P0.5mm</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/1811081623_Cirrus-Logic-CS5343-CZZR_C323607.pdf</datasheet>
+      <fields>
+        <field name="Mfr Part #">CS5343-CZZR</field>
+        <field name="Supplier">LCSC</field>
+        <field name="Supplier Part #">C323607</field>
+      </fields>
+      <libsource lib="adc" part="CS5343" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EF7643B</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EF78837</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EF7883D</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EF80D1C</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EF8110F</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EFA36E5</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EFA36EB</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>10kR</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EFB9E97</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>Conn_01x06_Male</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x06_Male" description="Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EFC0299</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F03BF08</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>620R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F03D327</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F05696F</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>300R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F056979</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>MEMS_Microphone_Sanico_AOS3729A-T42-NXC</value>
+      <footprint>chinesium:MEMS_Microphone_Sanico_AOS3729A-T42-NXC</footprint>
+      <libsource lib="Chinesium" part="MEMS_Microphone_Sanico_AOS3729A-T42-NXC" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EF967DC</tstamp>
+    </comp>
+    <comp ref="U4">
+      <value>MEMS_Microphone_Sanico_AOS3729A-T42-NXC</value>
+      <footprint>chinesium:MEMS_Microphone_Sanico_AOS3729A-T42-NXC</footprint>
+      <libsource lib="Chinesium" part="MEMS_Microphone_Sanico_AOS3729A-T42-NXC" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EF9FE0B</tstamp>
+    </comp>
+    <comp ref="C16">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EFAB009</tstamp>
+    </comp>
+    <comp ref="C15">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EFB334F</tstamp>
+    </comp>
+    <comp ref="C18">
+      <value>4.7uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EFC2065</tstamp>
+    </comp>
+    <comp ref="C17">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EFC3948</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>4.99kR</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Analogue_Frontend_R/" tstamps="/5EFD3570/"/>
+      <tstamp>5EFD39A9</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>4.99kR</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Analogue_Frontend_R/" tstamps="/5EFD3570/"/>
+      <tstamp>5EFD405B</tstamp>
+    </comp>
+    <comp ref="C11">
+      <value>180pF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Comments">C0G</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Analogue_Frontend_R/" tstamps="/5EFD3570/"/>
+      <tstamp>5EFD4C1E</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Comments">X7R</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Analogue_Frontend_R/" tstamps="/5EFD3570/"/>
+      <tstamp>5EFD8F1B</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>4.99kR</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Analogue_Frontend_L/" tstamps="/5EFE2DBB/"/>
+      <tstamp>5EFD39A9</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>4.99kR</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Analogue_Frontend_L/" tstamps="/5EFE2DBB/"/>
+      <tstamp>5EFD405B</tstamp>
+    </comp>
+    <comp ref="C12">
+      <value>180pF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Comments">C0G</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Analogue_Frontend_L/" tstamps="/5EFE2DBB/"/>
+      <tstamp>5EFD4C1E</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Comments">X7R</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Analogue_Frontend_L/" tstamps="/5EFE2DBB/"/>
+      <tstamp>5EFD8F1B</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>SSP6206</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/1809201825_Shanghai-Siproin-Microelectronics-SSP6206-33NR_C277882.pdf</datasheet>
+      <fields>
+        <field name="Mfr Part #">SSP6206-33NR</field>
+        <field name="Supplier">LCSC</field>
+        <field name="Supplier Part #">C277882</field>
+      </fields>
+      <libsource lib="Chinesium" part="SSP6206" description=""/>
+      <sheetpath names="/3.3V_LDO/" tstamps="/5EFF9A4F/"/>
+      <tstamp>5E9536DD</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>1.0uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/3.3V_LDO/" tstamps="/5EFF9A4F/"/>
+      <tstamp>5E954C77</tstamp>
+    </comp>
+    <comp ref="C14">
+      <value>10nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/3.3V_LDO/" tstamps="/5EFF9A4F/"/>
+      <tstamp>5E956A91</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>1.0uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/3.3V_LDO/" tstamps="/5EFF9A4F/"/>
+      <tstamp>5E95843F</tstamp>
+    </comp>
+    <comp ref="C13">
+      <value>10nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/3.3V_LDO/" tstamps="/5EFF9A4F/"/>
+      <tstamp>5E958445</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Chinesium" part="MEMS_Microphone_Sanico_AOS3729A-T42-NXC">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MEMS_Microphone_Sanico_AOS3729A-T42-NXC</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VDD" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="OUT" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="Chinesium" part="SSP6206">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">SSP6206</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VSS" type="passive"/>
+        <pin num="2" name="V_OUT" type="power_out"/>
+        <pin num="3" name="V_IN" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x06_Male">
+      <description>Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x06_Male</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Small">
+      <description>Unpolarized capacitor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="adc" part="CS5343">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">CS5343</field>
+        <field name="Footprint">Package_SO:TSSOP-10_3x3mm_P0.5mm</field>
+        <field name="Datasheet">https://datasheet.lcsc.com/szlcsc/1811081623_Cirrus-Logic-CS5343-CZZR_C323607.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="SDOUT" type="output"/>
+        <pin num="2" name="SCLK" type="3state"/>
+        <pin num="3" name="LRCK" type="3state"/>
+        <pin num="4" name="MCLK" type="input"/>
+        <pin num="5" name="FILT+" type="output"/>
+        <pin num="6" name="AINL" type="input"/>
+        <pin num="7" name="VQ" type="output"/>
+        <pin num="8" name="AINR" type="input"/>
+        <pin num="9" name="GND" type="power_in"/>
+        <pin num="10" name="VA" type="power_in"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Chinesium">
+      <uri>/home/quant/Documents/Electronics-Projects/KiCad_Libraries/Chinesium.lib</uri>
+    </library>
+    <library logical="Connector">
+      <uri>/usr/share/kicad/library/Connector.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>/usr/share/kicad/library/Device.lib</uri>
+    </library>
+    <library logical="adc">
+      <uri>/home/quant/Documents/Electronics-Projects/KiCad_Libraries/adc.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+5V">
+      <node ref="J1" pin="1"/>
+      <node ref="D1" pin="2"/>
+      <node ref="C13" pin="1"/>
+      <node ref="U2" pin="3"/>
+      <node ref="C7" pin="1"/>
+    </net>
+    <net code="2" name="/5V_LED_A">
+      <node ref="R5" pin="1"/>
+      <node ref="D1" pin="1"/>
+    </net>
+    <net code="3" name="+3V3">
+      <node ref="D2" pin="2"/>
+      <node ref="C17" pin="1"/>
+      <node ref="C18" pin="1"/>
+      <node ref="C15" pin="1"/>
+      <node ref="C2" pin="1"/>
+      <node ref="U4" pin="1"/>
+      <node ref="U3" pin="1"/>
+      <node ref="C14" pin="1"/>
+      <node ref="C16" pin="1"/>
+      <node ref="C8" pin="1"/>
+      <node ref="U2" pin="2"/>
+      <node ref="U1" pin="10"/>
+      <node ref="C5" pin="1"/>
+    </net>
+    <net code="4" name="GND">
+      <node ref="U1" pin="9"/>
+      <node ref="C3" pin="2"/>
+      <node ref="C6" pin="2"/>
+      <node ref="R7" pin="2"/>
+      <node ref="J1" pin="2"/>
+      <node ref="C4" pin="2"/>
+      <node ref="U2" pin="1"/>
+      <node ref="C8" pin="2"/>
+      <node ref="R5" pin="2"/>
+      <node ref="C7" pin="2"/>
+      <node ref="C14" pin="2"/>
+      <node ref="C11" pin="2"/>
+      <node ref="R4" pin="2"/>
+      <node ref="C5" pin="2"/>
+      <node ref="R2" pin="2"/>
+      <node ref="C12" pin="2"/>
+      <node ref="R6" pin="2"/>
+      <node ref="C13" pin="2"/>
+      <node ref="U4" pin="2"/>
+      <node ref="U4" pin="3"/>
+      <node ref="C16" pin="2"/>
+      <node ref="C2" pin="2"/>
+      <node ref="C18" pin="2"/>
+      <node ref="U3" pin="3"/>
+      <node ref="U3" pin="2"/>
+      <node ref="C15" pin="2"/>
+      <node ref="C17" pin="2"/>
+      <node ref="C1" pin="2"/>
+    </net>
+    <net code="5" name="/3.3V_LED_A">
+      <node ref="R6" pin="1"/>
+      <node ref="D2" pin="1"/>
+    </net>
+    <net code="6" name="/AINL">
+      <node ref="C9" pin="2"/>
+      <node ref="U1" pin="6"/>
+      <node ref="C12" pin="1"/>
+    </net>
+    <net code="7" name="/MIC_L_IN">
+      <node ref="R1" pin="2"/>
+      <node ref="U3" pin="4"/>
+    </net>
+    <net code="8" name="/MIC_R_IN">
+      <node ref="R3" pin="2"/>
+      <node ref="U4" pin="4"/>
+    </net>
+    <net code="9" name="/VQ">
+      <node ref="C6" pin="1"/>
+      <node ref="C3" pin="1"/>
+      <node ref="U1" pin="7"/>
+    </net>
+    <net code="10" name="/AINR">
+      <node ref="C11" pin="1"/>
+      <node ref="U1" pin="8"/>
+      <node ref="C10" pin="2"/>
+    </net>
+    <net code="11" name="/FILT+">
+      <node ref="U1" pin="5"/>
+      <node ref="C1" pin="1"/>
+      <node ref="C4" pin="1"/>
+    </net>
+    <net code="12" name="/MCLK">
+      <node ref="U1" pin="4"/>
+      <node ref="J1" pin="6"/>
+    </net>
+    <net code="13" name="/LRCK">
+      <node ref="U1" pin="3"/>
+      <node ref="J1" pin="5"/>
+    </net>
+    <net code="14" name="/SCLK">
+      <node ref="U1" pin="2"/>
+      <node ref="J1" pin="4"/>
+    </net>
+    <net code="15" name="/SDOUT">
+      <node ref="R7" pin="1"/>
+      <node ref="J1" pin="3"/>
+      <node ref="U1" pin="1"/>
+    </net>
+    <net code="16" name="/Analogue_Frontend_R/Mic_input_stage">
+      <node ref="R3" pin="1"/>
+      <node ref="R4" pin="1"/>
+      <node ref="C10" pin="1"/>
+    </net>
+    <net code="17" name="/Analogue_Frontend_L/Mic_input_stage">
+      <node ref="C9" pin="1"/>
+      <node ref="R1" pin="1"/>
+      <node ref="R2" pin="1"/>
+    </net>
+  </nets>
+</export>
